@@ -15,8 +15,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#pragma once
-
+#pragma once 
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
@@ -26,6 +25,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MANUFACTURER    Technomancy & Marco
 #define PRODUCT         atreus_leo
 #define DESCRIPTION     A neat kb made by marco
+#define TAPPING_TERM 200
 
 /* key matrix size */
 #define MATRIX_ROWS 4
